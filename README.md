@@ -1,4 +1,4 @@
-# FFmpeg-video-to-gif-batch-convert
+# FFmpeg-mirror-video-and-convert-to-gif-batch-job
 1. Creates a reversed copy of your original file.
 2. Appends the reversed copy of the original to the video file.
 3. Converts the combined video file to a gif.
@@ -7,6 +7,9 @@
 ## How it Works
 `convert.batch` reads `list.txt` and parses every line containing `<name>.<video type>` to FFmpeg to do the listed conversions.
 The output would be the respective `<name>.gif` files. 
+
+Files will be converted to `.mkv` format before the conversion for a clearer and more consistent output.
+The `.mkv` fiels will be deleted after the conversion to `.gif`.
 
 ## How to Use
 1. Move both files `convert.batch` and `list.txt` to an empty new folder.
