@@ -14,5 +14,5 @@ Batch script for Windows to convert a folder of videos (FFmpeg supported formats
   >convert.bat
 
 ## Prerequisites
-Install [FFmpeg](https://ffmpeg.org/download.html "Download FFmpeg") and set its path variables. Check that FFmpeg is working by running in `cmd` terminal
+Install [FFmpeg](https://ffmpeg.org/download.html "Download FFmpeg") and set its path variables. Check that FFmpeg is working by running the following in `cmd` terminal,
   >ffmpeg
