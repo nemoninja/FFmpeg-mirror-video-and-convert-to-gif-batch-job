@@ -9,7 +9,7 @@
 The output would be the respective `<name>.gif` files. 
 
 Files will be converted to `.mkv` format before the conversion for a clearer and more consistent output.
-The `.mkv` fiels will be deleted after the conversion to `.gif`.
+The `.mkv` files will be deleted after their conversion to `.gif`.
 
 ## How to Use
 1. Move both files `convert.batch` and `list.txt` to an empty new folder.
