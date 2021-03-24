@@ -2,7 +2,7 @@
 Batch script for Windows to convert a folder of videos (FFmpeg supported formats) to gif.
 
 ## How it Works
-`convert.batch` reads `list.txt` and parses every line containing `<name>.<video type>` to FFmpeg to convert to a `<name>.gif`. 
+`convert.batch` reads `list.txt` and parses every line containing `<name>.<video type>` to FFmpeg to convert to respective `<name>.gif` files. 
 
 ## How to Use
 1. Move both files `convert.batch` and `list.txt` to an empty new folder.
